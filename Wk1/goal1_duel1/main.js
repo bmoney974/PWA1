@@ -1,4 +1,4 @@
-// Bobby Newland 7-13-13
+// Bobby Newland 7-13-13   Duel 1
 
 var p1Name = "Spiderman";     // player one name
 var p2Name = "Batman";       // player two name
