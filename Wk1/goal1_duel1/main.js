@@ -40,7 +40,6 @@ var tie= ( " It's a Tie");
         if((p1RH <100)&& (p2RH <100)){
             rn++;
             result = alert (rnd);
-            console.log(rnd);
         }else if(p1RH <= 0){
             alert (winner1);
         }else if (p2RH <= 0){
@@ -96,7 +95,7 @@ var tie= ( " It's a Tie");
 
 
 fight(p1RH,p2RH);
-
+console.log(rnd);
 
 fight2(p1RH2,p2RH2);
 
