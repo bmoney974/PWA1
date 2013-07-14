@@ -34,8 +34,8 @@ var winner2 = ("Winner: " + p2Name);
 var noWinner = (" You Both Die");
 var tie= ( " It's a Tie");
 
- var sMan =[p1H,p1RH,p1RH2,p1RH3];
- var bMan = [p2H,p2RH,p2RH,p2RH3];
+ var sMan =[p1H,p1RH,p1RH2,p1RH3];  // array
+ var bMan = [p2H,p2RH,p2RH,p2RH3];  //array
 
 
     var fight = function(health1,health2){
