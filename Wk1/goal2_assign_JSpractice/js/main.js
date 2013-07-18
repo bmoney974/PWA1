@@ -49,21 +49,19 @@
 
 
         // Exercise 1
+          var arr = [1,3,4,5,6,7,8,9];
+          var numbers = arr;
+    var numAvg = function(numb){
+        var count = 0;   // how many times we go thru loop
+        var total = 0;    // total of numbers
 
-        var num = [1,2,3,4,6,7,8,9] ;
-        var sum = num[0]+num[1]+num[2]+num[3]+num[4]+num[5]+num[6]+num[7];
-        avg= sum/num.length;
-
-        var mean = ("The average of the numbers is "+ avg);
-        var avgNumbers = function(digit){
-            if(sum<100){
-                res= console.log(mean);
-            }
-            return res
+        for (var i = 0, j = numb.length; i < j; i++){
+            count++;
+            total = total + arr[i];
         };
-        avgNumbers(sum);
-        console.log("The average of the numbers is " + avg);
-
+        return total/count;
+    };
+    console.log("The average is " + numAvg(arr));
 
 
 
