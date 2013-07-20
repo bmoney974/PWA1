@@ -47,7 +47,7 @@
             if (result==="no winner")
             {
                 round++;
-                alert(p1Arr[0]+":"+p2Arr[2]+"  *ROUND "+round+" OVER"+"*  "+p2Arr[0]+":"+p2Arr[2]);
+                alert(p1Arr[0]+":"+p1Arr[2]+"  *ROUND "+round+" OVER"+"*  "+p2Arr[0]+":"+p2Arr[2]);
 
             } else{
                 alert(result);
