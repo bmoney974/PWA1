@@ -11,25 +11,30 @@
 (function (){
      var randomNum = Math.floor(Math.random()*10 + 1);     // random number
 
-//     var theButton = document.getElementById("button").value;
-//    theButton.onsubmit = validateNumber();
+
 
 
     var dom= {
-           input: document.querySelector("#input"),     // object literal
+           input: document.getElementById("input"),     // object literal
            output: document.querySelector("#output"),
-           button: document.getElementById("button")
+           button: document.getElementById("button"),
+            form: document.getElementById("theForm")
         };
-            dom.button.onclick= console.log("button test");
+
+        var button =    dom.button
+   // button.onclick = validateNumber;
+    var formForm = dom.form ;
+      var inIn= dom.input;
+    formForm.onsubmit = validateNumber;
 
             //console.log(dom.button);
-              var validateNumber = function(){
+              var validateNumber = function(playerGuess){
                   "use strict";
                  var testNum = 4;   // test num
-
+                //  console.log(dom.input);
                 //  dom.button.onclick = validateNumber();
 
-                var playerGuess =   parseInt(dom.input);
+              //  var playerGuess =   parseInt(dom.input);
                   if (isNaN(playerGuess)){
                       dom.output.innerHTML = "Please enter a valid number.";
                   }else if((playerGuess < 1)|| (playerGuess > 10)){
@@ -39,14 +44,20 @@
                   }else if((playerGuess > 1)&& (playerGuess < 10)&&(playerGuess > randomNum)){
                        dom.output.innerHTML = " Your number is to high try again."
                   }else if(playerGuess === randomNum){
-                        dom.output.innerHTML = " Great Job! You guessed it!"
+                        dom.output.innerHTML = " Great Job! You guessed it! The number is "+ randomNum
                   }else{
                         dom.output.innerHTML = " Please enter in the correct number"
                   }
-                 // return false;
-                 // e.preventDefault();
+
+
+                  return false;
+                  e.preventDefault();
 
               };
-
-
+    validateNumber(document.getElementById("input"));
+    function init(){
+        "use strict";
+        document.getElementById("theForm").onsubmit = validateNumber();
+    }
+    window.onload = init;
 })();
