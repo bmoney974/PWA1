@@ -64,15 +64,15 @@
             var f2 = Math.floor(Math.random()*p2Damage + p2Damage *.5);
 
 
-        var p1Score = document.querySelector("#kabal");
-        p1Score.innerHTML= ("Spiderman: " +p1Health );
+        var p1Score = document.querySelector("#kabal");  // player 1 score variable
+        p1Score.innerHTML= ("Spiderman: " +p1Health );    // player 1 html output
 
         // var scores = document.querySelector("#scores");
         //scores.innerHTML =("kh");
 
         var p2Score = document.querySelector("#kratos");  // player 2 score variable
 
-        p2Score.innerHTML =( "Batman: " +p2Health);     // player 2 score html   out put
+        p2Score.innerHTML =( "Batman: " +p2Health);     // player 2 score html   output
 
 //        var totalResult =  document.querySelector("scores active");
 //        totalResult.innerHTML = (+ winnerCheck());
