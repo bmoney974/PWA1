@@ -1,4 +1,4 @@
-/**
+/** Bobby Newland
  * Duel Fight Game - FINISHED
  * Date: 4/09/13
 
