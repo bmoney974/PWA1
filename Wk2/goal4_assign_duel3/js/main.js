@@ -70,9 +70,9 @@
         // var scores = document.querySelector("#scores");
         //scores.innerHTML =("kh");
 
-        var p2Score = document.querySelector("#kratos");  // player 2 score display
+        var p2Score = document.querySelector("#kratos");  // player 2 score variable
 
-        p2Score.innerHTML =( "Batman: " +p2Health);
+        p2Score.innerHTML =( "Batman: " +p2Health);     // player 2 score html   out put
 
 //        var totalResult =  document.querySelector("scores active");
 //        totalResult.innerHTML = (+ winnerCheck());
