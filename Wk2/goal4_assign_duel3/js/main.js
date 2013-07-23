@@ -60,7 +60,7 @@
         roundArea.innerHTML = ("Round "+ round+"<br>" + winnerCheck());
          console.log("this",roundMove++);
 
-            var f1 = Math.floor(Math.random()*p1Damage + p1Damage *.5);
+            var f1 = Math.floor(Math.random()*p1Damage + p1Damage *.5);    // math formula
             var f2 = Math.floor(Math.random()*p2Damage + p2Damage *.5);
 
 
