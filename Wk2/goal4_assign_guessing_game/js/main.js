@@ -21,18 +21,20 @@
             form: document.getElementById("theForm")
         };
 
-        var button =    dom.button
-   // button.onclick = validateNumber;
+        var button1 =    dom.button
+  // button.onclick = validateNumber;
+
     var formForm = dom.form ;
-      var inIn= dom.input;
-    formForm.onsubmit = validateNumber;
+      var inIn= document.getElementById("input");
+    //formForm.onsubmit = validateNumber;
 
             //console.log(dom.button);
               var validateNumber = function(playerGuess){
-                  "use strict";
+                //  "use strict";
+
                  var testNum = 4;   // test num
                 //  console.log(dom.input);
-                //  dom.button.onclick = validateNumber();
+
 
               //  var playerGuess =   parseInt(dom.input);
                   if (isNaN(playerGuess)){
@@ -48,16 +50,18 @@
                   }else{
                         dom.output.innerHTML = " Please enter in the correct number"
                   }
-
-
+                 //
+                  dom.button.addEventListenr("click",validateNumber);
                   return false;
-                  e.preventDefault();
+                  //e.preventDefault();
 
               };
-    validateNumber(document.getElementById("input"));
-    function init(){
-        "use strict";
-        document.getElementById("theForm").onsubmit = validateNumber();
-    }
-    window.onload = init;
+
+//    //validateNumber(document.getElementById("input"));
+//    function init(){
+//        "use strict";
+//        document.getElementById("theForm").onsubmit = validateNumber();
+   // }
+    //window.onload = init;
+
 })();
