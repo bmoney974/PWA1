@@ -9,7 +9,7 @@
 
 //Game variables
 (function (){
-     var randomNum = Math.floor(Math.random()*10 + 1);     // random number
+     var randomNum = Math.floor((Math.random()*10) + 1);     // random number
 
 
 
@@ -20,9 +20,14 @@
            button: document.getElementById("button"),
             form: document.getElementById("theForm")
         };
+    console.log(dom.input);
+    console.log(dom.output);
+    console.log(dom.button);
 
         var button1 =    dom.button
   // button.onclick = validateNumber;
+
+    var playerGuess = dom.input;
 
     var formForm = dom.form ;
       var inIn= document.getElementById("input");
@@ -34,7 +39,7 @@
 
                  var testNum = 4;   // test num
                 //  console.log(dom.input);
-
+                  console.log(playerGuess);
 
               //  var playerGuess =   parseInt(dom.input);
                   if (isNaN(playerGuess)){
@@ -51,11 +56,13 @@
                         dom.output.innerHTML = " Please enter in the correct number"
                   }
                  //
-                  dom.button.addEventListenr("click",validateNumber);
-                  return false;
+
+
                   //e.preventDefault();
 
               };
+     dom.button.addEventListener("click",validateNumber,false);
+
 
 //    //validateNumber(document.getElementById("input"));
 //    function init(){
