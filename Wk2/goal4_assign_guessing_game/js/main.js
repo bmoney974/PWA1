@@ -27,7 +27,7 @@
         var button1 =    dom.button
   // button.onclick = validateNumber;
 
-    var playerGuess = dom.input;
+//    var playerGuess = parseInt(dom.input.value);
 
     var formForm = dom.form ;
       var inIn= document.getElementById("input");
@@ -36,7 +36,7 @@
             //console.log(dom.button);
               var validateNumber = function(playerGuess){
                 //  "use strict";
-
+                  playerGuess = parseInt(dom.input.value);
                  var testNum = 4;   // test num
                 //  console.log(dom.input);
                   console.log(playerGuess);
@@ -51,7 +51,8 @@
                   }else if((playerGuess > 1)&& (playerGuess < 10)&&(playerGuess > randomNum)){
                        dom.output.innerHTML = " Your number is to high try again."
                   }else if(playerGuess === randomNum){
-                        dom.output.innerHTML = " Great Job! You guessed it! The number is "+ randomNum
+                        dom.output.innerHTML = " Great Job! You guessed it! The number is "+ randomNum;
+                           // dom.button.onclick ="return false";
                   }else{
                         dom.output.innerHTML = " Please enter in the correct number"
                   }
@@ -62,6 +63,13 @@
 
               };
      dom.button.addEventListener("click",validateNumber,false);
+
+    var noClick = function (){
+        if(validateNumber(parseInt(dom.input.value)) === randomNum){
+           dom.button.onclick = "return false";
+        };
+       noClick();
+    };
 
 
 //    //validateNumber(document.getElementById("input"));
