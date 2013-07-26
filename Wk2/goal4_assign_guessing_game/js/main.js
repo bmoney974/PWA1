@@ -9,7 +9,8 @@
 
 //Game variables
 (function (){
-     var randomNum = Math.floor((Math.random()*10) + 1);     // random number
+
+    var randomNum = Math.floor((Math.random()*10) +1);     // random number
 
 
 
@@ -24,60 +25,72 @@
     console.log(dom.output);
     console.log(dom.button);
 
-        var button1 =    dom.button
-  // button.onclick = validateNumber;
 
-//    var playerGuess = parseInt(dom.input.value);
 
-    var formForm = dom.form ;
-      var inIn= document.getElementById("input");
-    //formForm.onsubmit = validateNumber;
 
-            //console.log(dom.button);
-              var validateNumber = function(playerGuess){
-                //  "use strict";
-                  playerGuess = parseInt(dom.input.value);
-                 var testNum = 4;   // test num
+
+
+
+
+    var guessCount = 3;    // guess count
+
+
+              var validateNumber = function(playerGuess){   // validate guess
+
+                  console.log("Guess Count",guessCount);
+
+
+                  playerGuess = parseInt(dom.input.value);   // player guess input
+
+
+
                 //  console.log(dom.input);
                   console.log(playerGuess);
 
-              //  var playerGuess =   parseInt(dom.input);
-                  if (isNaN(playerGuess)){
-                      dom.output.innerHTML = "Please enter a valid number.";
-                  }else if((playerGuess < 1)|| (playerGuess > 10)){
-                       dom.output.innerHTML = " Please enter a number between 1 and 10."
+
+
+                  if (isNaN(playerGuess)){          // if guess is not a number
+                      dom.output.innerHTML = "Please enter a valid number. " +
+                          "You have " + guessCount + " guesses remaining";
+                  }else if((playerGuess < 1)|| (playerGuess > 10)){          // if guess is not between 1 & 10
+                       dom.output.innerHTML = " Please enter a number between 1 and 10.";
+
+
                   }else if((playerGuess > 1)&& (playerGuess < 10)&& (playerGuess < randomNum)){
-                       dom.output.innerHTML = "Your number is to low try again."
+                       dom.output.innerHTML = "Your number is too low try again. " ;
+                            // if guess is too low
+
                   }else if((playerGuess > 1)&& (playerGuess < 10)&&(playerGuess > randomNum)){
-                       dom.output.innerHTML = " Your number is to high try again."
+                       dom.output.innerHTML = " Your number is too high try again.";
+                             // if guess is too high
+
                   }else if(playerGuess === randomNum){
-                        dom.output.innerHTML = " Great Job! You guessed it! The number is "+ randomNum;
-                           // dom.button.onclick ="return false";
-                  }else{
-                        dom.output.innerHTML = " Please enter in the correct number"
+                        dom.output.innerHTML = " Great Job! You guessed it! The number is "+ randomNum +" You Win!!";
+                         // if guess correct
+                      dom.button.removeEventListener("click",validateNumber,false);
+
+
+                  }else if(playerGuess !== randomNum){   // guess counter
+                      guessCount--;
+
+                  }else if (guessCount === 0){
+                      dom.button.removeEventListener("click",validateNumber,false);   // 3 guess disable button
+                      dom.output.innerHTML = " Sorry you are out of tries. Game Over";
                   }
-                 //
+                  else{
+                        dom.output.innerHTML = " Please enter in the correct number ";
 
 
-                  //e.preventDefault();
+                  }
+
+
+
+
 
               };
-     dom.button.addEventListener("click",validateNumber,false);
-
-    var noClick = function (){
-        if(validateNumber(parseInt(dom.input.value)) === randomNum){
-           dom.button.onclick = "return false";
-        };
-
-    };
-    noClick();
+                     dom.button.addEventListener("click",validateNumber,false);
 
 
-//    //validateNumber(document.getElementById("input"));
-//    function init(){
-//        "use strict";
-//        document.getElementById("theForm").onsubmit = validateNumber();
-   // }
-    //window.onload = init;
+
 
 })();
