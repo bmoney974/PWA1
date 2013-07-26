@@ -68,8 +68,9 @@
         if(validateNumber(parseInt(dom.input.value)) === randomNum){
            dom.button.onclick = "return false";
         };
-       noClick();
+
     };
+    noClick();
 
 
 //    //validateNumber(document.getElementById("input"));
