@@ -56,17 +56,17 @@
                   else if (isNaN(playerGuess)){          // if guess is not a number
                       dom.output.innerHTML = "Please enter a valid number. " +
                           "You have " + guessCount + " guesses remaining";
-                  }else if((playerGuess < 1)|| (playerGuess > 10)){          // if guess is not between 1 & 10
+                  }else if((playerGuess <=0 )|| (playerGuess >= 11)){          // if guess is not between 1 & 10
                        dom.output.innerHTML = " Please enter a number between 1 and 10.";
 
 
-                  }else if((playerGuess > 1)&& (playerGuess < 10)&& (playerGuess < randomNum)){
+                  }else if((playerGuess >= 1)&& (playerGuess <= 10)&& (playerGuess < randomNum)){
                        dom.output.innerHTML = "Your number is too low try again. " +
                            "You have " + guessCount + " guesses remaining" ;
                       guessCount--;
                             // if guess is too low
 
-                  }else if((playerGuess > 1)&& (playerGuess < 10)&&(playerGuess > randomNum)){
+                  }else if((playerGuess >= 1)&& (playerGuess <= 10)&&(playerGuess > randomNum)){
                        dom.output.innerHTML = " Your number is too high try again." +
                            "You have " + guessCount + " guesses remaining";
                              // if guess is too high
