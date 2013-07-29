@@ -4,7 +4,23 @@
     <list default="true" id="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" name="Default" comment="" />
     <ignored path="goal5_assign_validation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/validate.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374456822370" ignored="false" />
+    <file path="/validate.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375056282617" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal4_assign_guessing_game/js/main.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374460777236" ignored="false" />
+    <file path="/main.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375047915629" ignored="false" />
+    <file path="/MagicNumber.html" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374460456438" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal4_assign_guessing_game/MagicNumber.html" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374460461686" ignored="false" />
+    <file path="$USER_HOME$/Downloads/goal7_Object_Constructor_Prototype/js/main.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374978533873" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/task JS book/tasks.html" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374984069796" ignored="false" />
+    <file path="/tasks.html" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374984067893" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/task JS book/js/tasks.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374984474805" ignored="false" />
+    <file path="/tasks.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374984455358" ignored="false" />
+    <file path="$USER_HOME$/Downloads/goal7_assign_obj_to_prototypes/js/main.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375036696692" ignored="false" />
+    <file path="$USER_HOME$/Downloads/goal7_assign_obj_to_prototypes/js/person.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375036852087" ignored="false" />
+    <file path="/person.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375036844904" ignored="false" />
+    <file path="/School Stuff/PWA1/goal6_assign_midterm/js/main.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375048079131" ignored="false" />
+    <file path="$USER_HOME$/Downloads/goal4_objects_DOM_events/js/main.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375052581609" ignored="false" />
+    <file path="/script.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375055153078" ignored="false" />
+    <file path="$USER_HOME$/Downloads/goal5_RegEx_Math_Date/js/script.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375055242994" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="76" column="17" selection-start="3496" selection-end="3496" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -36,7 +52,7 @@
       <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/validate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="12" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+            <state line="47" column="19" selection-start="1626" selection-end="1668" vertical-scroll-proportion="0.6363636">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -59,8 +75,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="29" />
+    <option name="x" value="2" />
+    <option name="y" value="22" />
     <option name="width" value="978" />
     <option name="height" value="643" />
   </component>
@@ -90,6 +106,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -124,7 +141,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +160,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="29" width="978" height="643" extended-state="0" />
+    <frame x="2" y="22" width="978" height="643" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -235,6 +251,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="7" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="65" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -244,14 +292,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="76" column="17" selection-start="3496" selection-end="3496" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+        <state line="47" column="19" selection-start="1626" selection-end="1668" vertical-scroll-proportion="0.6363636">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
