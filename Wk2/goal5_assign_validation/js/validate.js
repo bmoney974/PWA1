@@ -42,7 +42,7 @@
         }else if (inputName.name === "f_ssn"){  // ssn input validation
            var pattern =  /^\d{3}-\d{2}-\d{4}$/;
         }else if(inputName.name === "f_password"){   // password input validation
-          var pattern = /^[a-zA-Z]\w{3,14}$/;
+          var pattern = /^[a-zA-Z]\w{4,15}$/;
         }
 
         var pass = pattern.test(inputName.value);   // regex test code
