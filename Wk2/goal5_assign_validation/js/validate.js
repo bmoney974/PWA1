@@ -30,18 +30,18 @@
 
     var validateField = function(inputName){   // validate function
 
-        if (inputName.name === "f_username"){
+        if (inputName.name === "f_username"){  // username input validation
             var pattern = /^[A-Z\s^A-Z$]/;
 
             //You will need to create an else-if statement for each input field id.  The
             //      format will be similar to the above IF statement.
-        }else if(inputName.name === "f_email"){
+        }else if(inputName.name === "f_email"){    // email input validation
           var pattern = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-        }else if(inputName.name === "f_phone"){
+        }else if(inputName.name === "f_phone"){  // phone input validation
            var pattern = /((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}/;
-        }else if (inputName.name === "f_ssn"){
+        }else if (inputName.name === "f_ssn"){  // ssn input validation
            var pattern =  /^\d{3}-\d{2}-\d{4}$/;
-        }else if(inputName.name === "f_password"){
+        }else if(inputName.name === "f_password"){   // password input validation
           var pattern = /^[a-zA-Z]\w{3,14}$/;
         }
 

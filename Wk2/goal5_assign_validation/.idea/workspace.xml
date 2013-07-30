@@ -53,7 +53,7 @@
       <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/validate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="68" selection-start="929" selection-end="929" vertical-scroll-proportion="0.45454547">
+            <state line="32" column="54" selection-start="985" selection-end="985" vertical-scroll-proportion="0.030303031">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -316,7 +316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="68" selection-start="929" selection-end="929" vertical-scroll-proportion="0.45454547">
+        <state line="32" column="54" selection-start="985" selection-end="985" vertical-scroll-proportion="0.030303031">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
