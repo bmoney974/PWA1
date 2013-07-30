@@ -4,7 +4,7 @@
     <list default="true" id="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" name="Default" comment="" />
     <ignored path="goal5_assign_validation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/validate.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375061240058" ignored="false" />
+    <file path="/validate.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375156038061" ignored="false" />
     <file path="$PROJECT_DIR$/../goal4_assign_guessing_game/js/main.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374460777236" ignored="false" />
     <file path="/main.js" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1375154297570" ignored="false" />
     <file path="/MagicNumber.html" changelist="d0bd5eb7-8855-4cdf-97c6-2975c5daa90a" time="1374460456438" ignored="false" />
@@ -53,7 +53,7 @@
       <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/validate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="54" selection-start="985" selection-end="985" vertical-scroll-proportion="0.030303031">
+            <state line="48" column="100" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.52904564">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -316,7 +316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="54" selection-start="985" selection-end="985" vertical-scroll-proportion="0.030303031">
+        <state line="48" column="100" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.52904564">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

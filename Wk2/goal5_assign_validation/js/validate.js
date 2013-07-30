@@ -45,8 +45,8 @@
           var pattern = /^[a-zA-Z]\w{3,14}$/;
         }
 
-        var pass = pattern.test(inputName.value);
-        var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
+        var pass = pattern.test(inputName.value);   // regex test code
+        var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;   // error message
 
         if (!pass || inputName.value.length < 2){
             errorMsg.style.display='block';
