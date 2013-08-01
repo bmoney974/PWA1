@@ -79,19 +79,14 @@
                     students[t].gpa + students[t].date);
             };
             cLog1();
-
-
         };
             clickFix();
-
-
 
         /********************** Test console logs  ***********************/
         console.log("t is ",t);
         console.log("max -1 is ",students.length-1);
-        //console.log(innerHTML());
+;
     }; // sData end function
-
 
     button.addEventListener("click",sData,false);   // button event listener
 

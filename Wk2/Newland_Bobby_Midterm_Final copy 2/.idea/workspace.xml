@@ -4,7 +4,7 @@
     <list default="true" id="ee27ed45-9019-426a-955f-085a145073bf" name="Default" comment="" />
     <ignored path="goal6_assign_midterm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="ee27ed45-9019-426a-955f-085a145073bf" time="1375328853865" ignored="false" />
+    <file path="/main.js" changelist="ee27ed45-9019-426a-955f-085a145073bf" time="1375329928714" ignored="false" />
     <file path="$PROJECT_DIR$/../NOTES/goal1_basics/.idea/workspace.xml" changelist="ee27ed45-9019-426a-955f-085a145073bf" time="1374631182448" ignored="false" />
     <file path="$PROJECT_DIR$/../NOTES/goal1_basics/.idea/modules.xml" changelist="ee27ed45-9019-426a-955f-085a145073bf" time="1374631182448" ignored="false" />
     <file path="$PROJECT_DIR$/../NOTES/goal1_basics/.idea/encodings.xml" changelist="ee27ed45-9019-426a-955f-085a145073bf" time="1374631182448" ignored="false" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="30" selection-start="4236" selection-end="4236" vertical-scroll-proportion="0.55329156">
+            <state line="92" column="48" selection-start="4512" selection-end="4512" vertical-scroll-proportion="2.1630094">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -352,7 +352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="30" selection-start="4236" selection-end="4236" vertical-scroll-proportion="0.55329156">
+        <state line="92" column="48" selection-start="4512" selection-end="4512" vertical-scroll-proportion="2.1630094">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
